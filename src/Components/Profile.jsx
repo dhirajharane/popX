@@ -1,7 +1,7 @@
 const Profile = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="bg-white h-[68px] shadow-sm flex items-center px-4">
+      <div className="bg-white h-[68px]  shadow-sm flex items-center px-4">
         <h2 className="w-[146px] h-[22px] text-left text-[18px] leading-[21px] font-normal text-[#1D2226] capitalize">
           Account Setting
         </h2>
