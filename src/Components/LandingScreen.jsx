@@ -14,11 +14,11 @@ const LandingScreen = () => {
 
   return (
     <div
-      className={`flex flex-col sm:justify-end justify-end-safe mb-6 sm:mb-0  min-h-screen pb-4 transition-opacity duration-300 ease-out ${
+      className={`flex flex-col sm:justify-end justify-end-safe  min-h-screen pb-4 transition-opacity duration-300 ease-out ${
         fadeOut ? "opacity-0" : "opacity-100"
       }`}
     >
-      <div className="flex flex-col py-4 px-4 gap-1 ">
+      <div className="flex flex-col py-4 px-4 gap-1 sm:mb-0 mb-32">
         <h1 className="font-medium text-[28px] leading-[17px] font-[Rubik] text-left w-[231px] h-[33px] text-[#1D2226]">
           Welcome to PopX
         </h1>
