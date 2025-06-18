@@ -115,7 +115,7 @@ const SignupScreen = () => {
 
           <button
             type="submit"
-            className="bg-violet-600 text-white text-center w-[335px] h-[46px] font-medium rounded-lg mt-52"
+            className="bg-violet-600 text-white text-center w-[335px] h-[46px] font-medium rounded-lg sm:mt-52 mt-28"
           >
             Create Account
           </button>

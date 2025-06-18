@@ -12,10 +12,10 @@ const MobileFrame = ({ children }) => {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // On mobile, remove the frame and use full width/height
+  // On mobile, 
   if (isMobile) {
     return (
-      <div className="min-h-screen bg-[#F7F8F9] flex items-center justify-center px-2">
+      <div className="min-h-screen bg-[#F7F8F9] flex justify-start p-4">
         <div className="w-full h-full">{children}</div>
       </div>
     );
