@@ -16,7 +16,7 @@ const MobileFrame = ({ children }) => {
   if (isMobile) {
     return (
       <div className="min-h-screen bg-[#F7F8F9] flex justify-start p-4">
-        <div className="w-full h-full">{children}</div>
+        <div className="w-full h-[812px]">{children}</div>
       </div>
     );
   }
